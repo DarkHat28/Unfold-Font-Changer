@@ -1,15 +1,16 @@
 {
-  "name": "Stylish Text",
+  "name": "Unfold Font Changer",
   "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
   "keywords": [
     "telegram",
     "best",
-    "StylishText"
+    "StylishText",
+    "FontChanger"
   ],
-  "logo": "https://telegra.ph/file/8f7067fd24710cebfaa23.jpg",
-  "success_url": "https://telegram.dog/StylishText_zKbot",
-  "website": "https://github.com/ZauteKm/Stylish-Text-Bot",
-  "repository": "https://github.com/ZauteKm/Stylish-Text-Bot",
+  "logo": "https://dd.ci/file/617fe8055ac8019590bcc.jpg",
+  "success_url": "http://t.me/UnfoldQuery_Bot",
+  "website": "https://github.com/DarkHat28/Unfold-Font-Changer",
+  "repository": "https://github.com/DarkHat28/Unfold-Font-Changer",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -25,7 +26,7 @@
     },
     "OWNER_ID": {
       "description": "give your telegram user id here",
-      "value": "1684438752"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
