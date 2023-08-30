@@ -14,7 +14,7 @@ Unfold Font Changer Telegram Bot.
 
 - `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://t.me/BotFather)
 
-- `OWNER_ID:` Get your user id from [From this Telegram Bot](https://t.me/chatIDrobot)
+- `OWNER_ID:` Get your user id from [From this Telegram Bot 🤖](https://t.me/chatIDrobot)
 ## Deploy to heroku 🗳
 Press the button Deploy to heroku and give the values for the config vars. 👇
 
