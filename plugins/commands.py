@@ -8,29 +8,29 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'zautebot'
+    owner_username = owner.username if owner.username else 'Saitama_AU'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-** I am Stylish Font Bot ✍️**
+** I am Stylish Font Bot from Unfold Network✍️**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`I can help you to get stylish fonts. Just send me some text and see magic 🪄✨.`
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** Developed by :** ❤️ ▷ [@Saitama_AU](https://t.me/Saitama_AU)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('👥 Group', url=f"https://t.me/+qmfr4FbTQ284YmY9"),
+            InlineKeyboardButton('📢 Channel', url=f"https://t.me/Anime_Unfold")
             ],[
             InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
+            InlineKeyboardButton('🪪 Contact Me', url=f"https://t.me/Saitama_AU"),
+            InlineKeyboardButton('👾 GitHub', url=f"https://github.com/DarkHat28")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('⚜️ Ongoing Anime Channel ⚜️', url=f"https://t.me/Ongoing_Anime_Unfold")
         ]
     ]
     await m.reply_text(
